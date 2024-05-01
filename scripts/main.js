@@ -33,16 +33,16 @@ for (let i = 1; i <= 10; i++) {
     factorial *= i;
     console.log(factorial);
 }
-console.log("Task 6");
-let arr = [];
-for (let i = 1; i <= 10; i++) {
-    arr.push(i * i);
+console.log("Task 6")
+let arr = [3, 1, 4, 1, 5];
+for (let i = 0; i <= arr.length - 1; i++) {
+   console.log(arr[i]);
 }
-console.log(arr);
 
-console.log("Task 7");
-for (let i = arr.length - 1; i >= 0; i--) {
-    console.log(arr.at(i));
+let reverse = 0
+for (let i = 0; i < arr.length; i++) {
+   negative = (-i -1);
+   console.log(arr.at(reverse));
 }
 
 console.log("Task 8");
@@ -67,4 +67,5 @@ for (let i = arr.length - 1; i >= 0; i--) {
     reversedArr.push(arr[i]);
 }
 console.log(reversedArr);
+
 
