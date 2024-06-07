@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="css-animations.css" rel="stylesheet">
+    <title>About Me - Charlie</title>
+    <link rel = "stylesheet" href="styles/main.css">
 </head>
-
 <body>
-    <a href="/about.html">About Me</a>
-    <p id="about-me">My Website!
-        Some Stuff about <em>Me</em>.
-        <a href="https://charlieposer.github.io/">Here</a>
-    <h1 class="smart"><em>Charlie's</em> Website</h1>
-    <h2 class="cool">5 Fun Facts About Me</h2>
-    <ol>
-        <li>I am 16 years old</li>
-        <li>I live in Greenbrae California but was born in San Diego California</li>
-        <li>I have 1 brother and 1 sister</li>
-        <li>I am a Sophmore at Redwood High School</li>
-        <li>I play Basketball and Waterpolo</li>
-    </ol>
-    <h3 class="smart"> Things I like to Do</h3>
-    <h4 class="cool"> 4 Things I like to do</h4>
-    <ul>
-        <li>I like to spend time with family and friends</li>
-        <li>My favriote hobbies are surfing, fishing, and skiing</li>
-        <li>My favriote video games are 2k and Madden</li>
-        <li>I like to spend time in nature by camping with my friends and family</li>
-    </ul>
-    <img src="images/Seal.jpg" alt="A Drawing of a Seal" style="width: 256px; height: auto">
-    </p>
-    <script scrc="scripts/main.js"></script>
-    <script scrc="scripts/assignment.js"></script>
+    <header>
+        <h1>Welcome to Charlie's Website</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="everyday.html">Everyday Life</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>Hi, I'm Charlie!Here are some fun facts about me:</p>
+            <img src="images/marin.jpeg" alt="Marin County" style="width: 256px; height: auto">
+            <ul>
+                <li>I am 16 years old</li>
+                <li>I live in Greenbrae, California but was born in San Diego, California</li>
+                <li>I have 1 brother and 1 sister</li>
+                <li>I am a sophomore at Redwood High School</li>
+                <li>I play Basketball and Water Polo</li>
+            </ul>
+        </section>
+        <section id="intrests">
+            <h2>Things I Like to Do</h2>
+            <ul>
+                <li>I like to spend time with family and friends</li>
+                <li>My favorite video games are 2k and Madden</li>
+                <li>I like to spend time in nature by camping with my friends and family</li>
+            </ul>
+        </section>
+        <button id="reveal">Show Extra Fact</button>
+        <p id="extra" class="hidden">I like to play guitar</p>
+    </main>
+    <script src="scripts/main.js"></script>
 </body>
-
 </html>
