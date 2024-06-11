@@ -13,7 +13,7 @@ header {
 }
 header nav a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: cursive;
     margin: 0 1rem;
 }
 header nav a:hover {
@@ -41,3 +41,17 @@ ul {
 .hidden {
     display: none;
 }
+.switch {
+    background-color: bisque;
+}
+.important {
+    background-color: green;
+}
+  li:nth-last-child(-n+1) {
+    border: 2px solid pink;
+    margin-top: 1px;
+  }
+  
+  li:nth-last-child(even) {
+    background-color: rgb(128, 21, 0);
+  }

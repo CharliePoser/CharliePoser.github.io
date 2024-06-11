@@ -13,7 +13,7 @@ body {
         }
         header nav a {
             color: #fff;
-            text-decoration: none;
+            text-decoration: cursive;
             margin: 0 1rem;
         }
         header nav a:hover {
@@ -38,3 +38,12 @@ body {
             margin: 0;
             padding: 0 0 0 20px;
         }
+        .image{
+            background-color: aquamarine;
+        }
+        p {
+            font-weight: bolder;
+          }
+          li:first-child {
+            border: 2px solid steelblue;
+          }
